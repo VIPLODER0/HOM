@@ -6,7 +6,7 @@ import datetime
 import os
 
 # Insert your Telegram bot token here
-bot = telebot.TeleBot('8012442954:AAFW5ZUohkXcAINeZyB-bPLEYcciRyUHls0')
+bot = telebot.TeleBot('8012442954:AAEaVx2mPg_3DbH-fRWJHEGKrgyHf7T_mb0')
 
 # Admin user IDs
 admin_id = {"1929943036"}
@@ -208,7 +208,7 @@ def start_attack_reply(message, target, port, time):
 # Dictionary to store the last time each user ran the /bgmi command
 bgmi_cooldown = {}
 
-COOLDOWN_TIME =60
+COOLDOWN_TIME =300
 
 # Handler for /bgmi command
 @bot.message_handler(commands=['bgmi'])
